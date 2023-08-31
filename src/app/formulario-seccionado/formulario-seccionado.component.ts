@@ -20,10 +20,6 @@ import { DireccionFormSectionComponent } from './direccion-form-section/direccio
 export class FormularioSeccionadoComponent implements OnInit {
   dummyEntity: DummyEntity;
   fetched: boolean;
-  @ViewChild(ContactoFormSectionComponent)
-  contactFormSection: ContactoFormSectionComponent;
-  @ViewChild(DireccionFormSectionComponent)
-  direccionesFormSection: DireccionFormSectionComponent;
 
   @ViewChildren(FormSection) formSections: QueryList<FormSection<DummyEntity>>;
 
